@@ -51,8 +51,9 @@ def increment(number=1, by=1):  # function with default parameters
     return (number, number + by)
 
 
-def increment2(number:int, by:int) -> int:
+def increment2(number: int, by: int) -> int:
     return number + by
+
 
 def f1():
     f2()
@@ -65,5 +66,3 @@ def f2():
 if __name__ == '__main__':
     print('welcome to my functions')
     f1()
-
-

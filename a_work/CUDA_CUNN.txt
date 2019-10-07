@@ -1,0 +1,24 @@
+
+Installation path
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.0\bin
+
+Installation erros : 
+#################################################################33
+ref : https://devtalk.nvidia.com/default/topic/1038737/cuda-setup-and-installation/windows-10-cuda-installation-failure-solved/
+
+Error0 : If the installation of CUDA is failing on Windows 10 its most likely failing because you have GeForce Experience installed.
+
+Solution0: I just wanted to say thanks to both. Disabling Visual Studio Integration fixed the problem for me as well.
+
+For those who see this after me, Visual Studio Integration is under the CUDA installation options tree menu. I also did not install:
+GeForce Experience Software
+GeForce Drivers
+PhysX
+###################################################################
+
+run control sysdm.cpl to check the CUDA_PATH existance 
+
+###################################################################
+
+
+pip install tensorflow-gpu=2.0.0 // working version 
